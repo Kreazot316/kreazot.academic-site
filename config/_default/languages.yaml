@@ -1,65 +1,26 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
-
-# Default language
 ru:
   languageCode: ru-RU
   contentDir: content/ru
   languageName: Русский
-  title: Алексей Лащиков
+  title: Карпухин Клим
   weight: 1
   params:
-    description: Персональный сайт Алексея Лащикова
+    description: Персональный сайт Карпухина Клима (РУДН)
     hugoblox:
       identity:
-        name: Алексей Лащиков
+        name: Карпухин Клим
+        organization: РУДН
+        tagline: "Студент, исследователь"
+        social:
+          github: Kreazot316
   menu:
     main:
-      - name: Обо мне
-        url: /
+      - name: "Обо мне"
+        url: "/"
         weight: 10
-      - name: Опыт
-        url: /experience/
+      - name: "Опыт"
+        url: "/experience/"
         weight: 20
-      - name: Проекты
-        url: /projects/
+      - name: "Проекты"
+        url: "/projects/"
         weight: 30
-
-en:
-  languageCode: en-us
-  contentDir: content/en
-  languageName: English
-  title: Alexey Lashikov
-  weight: 2
-  params:
-    description: Personal website of Alexey Lashikov
-    hugoblox:
-      identity:
-        name: Alexey Lashikov
-  menu:
-    main:
-      - name: Bio
-        url: /
-        weight: 10
-      - name: Experience
-        url: /experience/
-        weight: 20
-      - name: Projects
-        url: /projects/
-        weight: 30
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
